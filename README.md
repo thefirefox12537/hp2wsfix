@@ -8,7 +8,7 @@ A rudimentary widescreen fix for Need for Speed: Hot Pursuit 2 on PC
 - Configure and increase the memory allocations (e.g. for the render class (CLASS_RENDER) - this fixes higher poly models from crashing the game (e.g. car mods))
 - d3d8to9 automatically enabled with the Ultimate ASI Loader (release binaries only)
 - Reroute the save directory
-- Ingame resolution changes are currently buggy (have to enter a race then exit or restart the game)
+- In-Game resolution changes are currently buggy (have to enter a race then exit or restart the game)
 - Needs detail polish (multiplayer server browser, some menus not centered, etc.)
 
 # Usage
@@ -40,11 +40,17 @@ This is due to the game having its own exception handler and Wine doesn't like t
 - EA Canada - the game code itself
 
 # Screenshots
-## Standard widescreen (1280x720)
-![Ingame](Screenshots/W_Ingame.png)
-![Main menu](Screenshots/W_Menu_Main.png)
-![Car select](Screenshots/W_Menu_CarSelect.png)
-## Ultrawide (2560x1080)
-![Ingame](Screenshots/UW_Ingame.png)
-![Main menu](Screenshots/UW_Menu_Main.png)
-![Car select](Screenshots/UW_Menu_CarSelect.png)
+## Standard 
+![In-Game](Screenshots/Std_InGame.png)
+![Main Menu](Screenshots/Std_Menu_Main.png)
+![Car Select](Screenshots/Std_Menu_CarSelect.png)
+## Widescreen 
+![In-Game](Screenshots/WS_InGame.png)
+![Main Menu](Screenshots/WS_Menu_Main.png)
+![Car Select](Screenshots/WS_Menu_CarSelect.png)
+## Ultrawidescreen 
+![In-Game](Screenshots/UWS_InGame.png)
+![Main Menu](Screenshots/UWS_Menu_Main.png)
+![Car Select](Screenshots/UWS_Menu_CarSelect.png)
+## Bonus
+![Modern HUD](Screenshots/Modern_HUD.png)
